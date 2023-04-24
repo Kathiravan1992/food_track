@@ -2,7 +2,7 @@ from flask import g
 import sqlite3
 
 def connect_db():
-    sql = sqlite3.connect('C:/Users/Lenovo/Desktop/flask/flask_app/food_log.db')
+    sql = sqlite3.connect('https://github.com/Kathiravan1992/food_track/blob/main/food_log.db')
     sql.row_factory = sqlite3.Row
     return sql
 
